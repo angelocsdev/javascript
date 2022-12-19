@@ -41,8 +41,8 @@
         var n1 = Number(window.prompt('Digite um número: ')) // string
         var n2 = Number(window.prompt('Digite outro número: ')) // string
         var s = n1 + n2
-        window.alert('A soma dos valores é ' + s + '!') // concatenação
-        // number + numer adição
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // concatenação
+        // number + number adição
         // string + string concatenação, que é a junção das var's
         /*
         Para converter um 'string' para 'number' usa-se:
@@ -58,6 +58,43 @@
         String(n)
         n.toString()
         */
+
+
+       /*
+       template string
+
+        `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+
+        Os templates são abertos com crase `.
+        $ é placeholder
+       */
+
+       /*
+       Formatando strings:
+
+       s.length -> quantos caracteres a string tem
+       s.toUpperCase() -> transforma todas as letras em maiúsculas
+       s.toLowerCase() -> transforma todas as letras em minúsculas
+       */
+
+       /*
+       Formatando numbers:
+
+       var n1 = 1545.5
+       n1.toFixed(2) -> usado para ter 2 casas decimais nos números.
+       '1545.50'
+
+       n1.toFixed(2).replace('.', ',') -> usado para trocar uma coisa por outra, como no exemplo, trocar ponto por vírgula.
+       '1545,50'
+
+       n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - > usado para colocar em real.
+       'R$ 1,545.50'
+
+       n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) - > usado para colocar em dólar.
+       'US$ 1,545.50'
+
+       n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) - > usado para colocar em euro.
+       */
     </script>
 </body>
 </html>
