@@ -39,9 +39,9 @@
     <div>Clique em mim</div>
     <script>
         var corpo = window.document.body
-        var p1 = window.document.getElementsByTagName('p') [0]/*Usado para selecionar um elemento. Ex: h1, p, div, main. O número entre '[]' é o parágrafo que vai aparecer > 0 é o primeiro, 1 é o segundo, 2 é o terceiro...*/
-        corpo.style.background = 'linear-gradient(cyan, yellow)'
-        p1.style.color = 'black'/* Também pode mudar o estilo. */
+        var p1 = window.document.getElementsByTagName('p') [1]/*Usado para selecionar um elemento. Ex: h1, p, div, main. O número entre '[]' é o parágrafo que vai aparecer > 0 é o primeiro, 1 é o segundo, 2 é o terceiro...*/
+        
+        document.write(p1.innerHTML)/* innerHTML é usado para aparecer com a formatação em HTML */
     </script>
 </body>
 </html>
