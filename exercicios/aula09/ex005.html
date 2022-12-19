@@ -38,8 +38,10 @@
     <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
     <div>Clique em mim</div>
     <script>
-        var p1 = window.document.getElementsByTagName('p')[0]/*Usado para selecionar um elemento. Ex: h1, p, div, main. O número entre '[]' é o parágrafo que vai aparecer > 0 é o primeiro, 1 é o segundo, 2 é o terceiro...*/
-        window.document.write('Está escrito assim: ' + p1.innerText)/*innerText é usado para mostrar o conteúdo selecionado*/
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p') [0]/*Usado para selecionar um elemento. Ex: h1, p, div, main. O número entre '[]' é o parágrafo que vai aparecer > 0 é o primeiro, 1 é o segundo, 2 é o terceiro...*/
+        corpo.style.background = 'linear-gradient(cyan, yellow)'
+        p1.style.color = 'black'/* Também pode mudar o estilo. */
     </script>
 </body>
 </html>
