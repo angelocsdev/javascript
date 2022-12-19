@@ -36,12 +36,28 @@
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
-    <div>Clique em mim</div>
+    <div class="msg">Clique em mim</div>
     <script>
+        
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p') [1]/*Usado para selecionar um elemento. Ex: h1, p, div, main. O número entre '[]' é o parágrafo que vai aparecer > 0 é o primeiro, 1 é o segundo, 2 é o terceiro...*/
-        
-        document.write(p1.innerHTML)/* innerHTML é usado para aparecer com a formatação em HTML */
+        /*
+        var d = window.document.getElementById('msg')
+
+        d.style.background = 'black'
+        d.innerText = 'Mudei aqui'
+        d.style.color = 'cyan'
+        */
+       /*var d = window.document.getElementsByName('msg')[0] Lembrar de colocar os '[]' quando o 'Elements' estiver no plural 
+       d.style.background = 'black'
+       d.innerText = 'Mudei Aqui'
+       d.style.color = 'cyan'*/
+       /*var d = window.document.getElementsByClassName('msg')[0]
+       d.innerText = 'Oi'*/
+       var d = window.document.querySelector('div.msg')
+       d.innerText = 'Oi!'
+       d.style.background = 'black'
+       d.style.color = 'cyan'
     </script>
 </body>
 </html>
