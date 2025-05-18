@@ -11,11 +11,18 @@ let pessoa = {
     nome: 'Gabriel',
     idade: 22,
     estaAprovado: true,
-    sobrenome: 'Gabriel',
+    sobrenome: 'Costa',
     corSelecionada: 'Azul',
     notaMedia: 7.5,
     hobbie,
     faculdade
 }
 
-console.log(pessoa)
+let musicas = {
+    artista: "Morada",
+    genero: "gospel",
+    playlist: "É Tudo Sobre Você",
+    anoLancamento: 2020
+}
+
+console.log(pessoa, musicas)
