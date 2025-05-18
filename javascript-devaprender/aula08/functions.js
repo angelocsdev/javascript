@@ -21,7 +21,7 @@ console.log(corSite)
 // soma()
 // console.log(numero)
 
-nome = "Roberta"
+let nome = "Roberta"
 
 function mudarNome(namorada) {
     nome = namorada
