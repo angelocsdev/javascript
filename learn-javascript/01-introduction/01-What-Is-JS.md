@@ -1,0 +1,3 @@
+## O que é JavaScript?
+
+JavaScript, muitas vezes abreviado como JS, é uma linguagem de programação que é uma das principais tecnologias da World Wide Web, ao lado de HTML e CSS. Ele nos permite adicionar interatividade às páginas, por exemplo, você pode ter visto controles deslizantes, alertas, interações de cliques, pop-ups, etc. em sites diferentes - tudo isso é construído usando JavaScript. Além de ser usado no navegador, ele também é usando em outros ambientes que não são navegadores, como Node.js para escrever código do lado do servidor em JavaScript, Electron para escrever aplicativos de desktop, React Native para aplicativos móveis e assim por diante.

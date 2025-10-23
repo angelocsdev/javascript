@@ -1,0 +1,3 @@
+## Versões do JavaScript
+
+O JavaScript, inventado por Brendan Eich, alcançou o status de padrão ECMA em 1997 e adotou o nome oficial ECMAScript. Essa linguagem evoluiu por meio de várias versões, ou seja, ES1, ES2, ES3, ES4, ES5 e o transformador ES6. Essas atualizações desempenharam um papel crucial na melhoria e padronização do JavaScript, tornando-o amplamente utilizado e valioso no campo em constante mudança do desenvolvimento web.

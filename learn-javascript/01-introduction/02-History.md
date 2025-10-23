@@ -1,0 +1,3 @@
+## História do JavaScript
+
+O JavaScript foi inicialmente criado por Brendan Eich da NetScape e foi anunciado pela primeira vez em um comunicado de imprensa da Netscape em 1995. Tem uma história bizarra de nomeação; inicialmente, foi nomeado Mocha pelo criador, que mais tarde foi renomeado para LiveScript. Em 1996, cerca de um ano depois do lançamento, a NetScape decidiu renomeá-lo para JavaScript com a esperança de capitalizar a comunidade Java (embora o JavaScript não tivesse nenhuma relação com o Java) e lançou o Netscape 2.0 com o suporte oficial do JavaScript.
